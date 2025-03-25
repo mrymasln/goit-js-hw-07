@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 16px;
+    background-color: #ffffff;
+    color: #2e2f42;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* TASK 1 */
+
+#categories {
+    width: 392px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 8px;
+    margin: 24px;
+    padding: 16px;
+    list-style-type: none;
+}
+
+#categories .item {
+    background-color: #f6f6fe;
+}
+#categories .item h2 {
+    padding: 16px;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 32px;
+}
+
+#categories .item ul {
+    padding: 16px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#categories .item ul li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #808080;
+}
+
+
+/* TASK 2 */
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery li {
+    width: 30%;
+}
+
+/* Task-4 */
+.login-form button {
+    margin-top: 16px;
+}
+
+/* TASK 5 */
+
+.change-color {
+    width: 148px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #4E75FF;
+    border-color: transparent;
+    color: white;
+}
+
+/* TASK 6  */
+
+#controls {
+    background-color: #F6F6FE;
+    width: max-content;
+    padding: 32px;
+    display: flex;
+    gap: 16px;
+}
+
+input[type="number"] {
+    background-color: transparent;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #808080;
+}
+
+button[data-create] {
+    background-color: #4E75FF;
+    color: white;
+    border-color: transparent;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+button[data-destroy] {
+    background-color: #FF4E4E;
+    color: white;
+    border-color: transparent;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#boxes {
+    background-color: #F6F6FE;
+    padding: 32px;
+    width: 0;
+    width: fit-content;
+    margin-top: 16px;
+    display: flex;
+    gap: 44px;
+}
+
+
+
+
